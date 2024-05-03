@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+}
+.container{
+    max-height: 1440px;
+    padding: auto;
+    height: 100vh;
+}
+/* TWITTER LOGO */
+.fa-twitter{
+    color: var(--twitter-color);
+    font-size: 30px;
+}
+/* NAV ITEMS */
+.sidebar-option{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-option .material-icons, .fa-twitter{
+    padding: 20px;
+}
+
+.sidebar-option h2{
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+.sidebar-option:hover{
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+.sidebar-option.active{
+    color: var(--twitter-color);
+}
+
+.tweet-button{
+    width: 100%;
+    background-color: var(--twitter-color);
+    border: none;
+    color: white;
+    font-weight: 900;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.nav-items{
+    border-right: 1px solid var(--twitter-background);
+    flex: 0.2;
+    min-width: 250px;
+    margin-top: 20px;
+    padding: 0 20px;
+    
+}
+
+.details{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-top: 100%;
+}
+
+.details:hover{
+    background: var(--twitter-color);
+    border-radius: 30px;
+}
+
+.profile img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    display: flex;
+    font-weight: bold;
+    line-break: 1.5;
+}
+
+.username{
+    color: #6e767d;
+    display: flex;
+}
+
+.option-icon .material-icons{
+    font-size: 16px;
+    margin-top: 1px;
+}
