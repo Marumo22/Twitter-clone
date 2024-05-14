@@ -703,7 +703,7 @@ menu{
       justify-content: center;
     }
   
-    .wrapper-logo {
+    .nav__logo-wrapper {
       width: 100%;
     }
   
@@ -749,7 +749,7 @@ menu{
       display: none;
     }
   
-    .wrapper-logo {
+    .nav__logo-wrapper {
       display: none;
     }
   
@@ -759,7 +759,7 @@ menu{
   
     .sidebar__tweet{
       position: fixed;
-      top: 80vh;
+      top: 115vh;
       right: 1vw;
     }
   
@@ -772,7 +772,7 @@ menu{
       left: 0;
       right: 0;
       background-color: white;
-      top: 93vh;
+      top: 126vh;
       width: 100%;
     }
   
